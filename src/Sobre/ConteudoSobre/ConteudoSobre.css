@@ -1,0 +1,72 @@
+.conteudo{
+    color: rgb(236, 236, 236);
+    background: -webkit-linear-gradient(to right, #bc0c16, #84050c);
+    background: linear-gradient(to right, #cc1019, #84050c);
+    box-shadow: -3px 0px 12px rgba(0,0,0,.3);
+    z-index: 0;
+    padding: 3.6rem 4.5rem;
+    margin-top: -4rem;
+}
+
+.paiBanner{
+    text-align: center;
+    margin-top: -4rem;
+}
+
+.banner{
+    margin-top: 4rem;
+    width: 18rem;
+    border-radius: .2rem;
+    box-shadow: 0 0 12px rgba(0,0,0,0.3);
+}
+
+.conteudo h2{
+    font-family: 'League_Gothic';
+    text-transform: uppercase;
+    font-size: 3.5rem;
+}
+
+.conteudo h3{
+    font-family: 'League_Gothic';
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.conteudo p{
+    font-family: ProximaNova;
+}
+
+.img-icone{
+    border-radius: 100%;
+    width: 3.5rem;
+    box-shadow: 0 0 7px rgba(0,0,0,0.3);
+}
+
+.conteudo hr{
+    border-top: 1px solid rgba(255,255,255,.3);
+}
+
+.conteudo .col-sm-2{
+    margin-right: -2rem;
+}
+
+.nomes{
+    font-family: 'League_Gothic';
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+@media (max-width: 576px){
+    .conteudo{
+        margin-top: 4rem;
+    }
+
+    .conteudo h2{
+        font-size: 3rem;
+    }
+
+    .banner{
+        width: 15rem;
+    }
+}

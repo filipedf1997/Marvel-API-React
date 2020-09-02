@@ -1,0 +1,53 @@
+#template{
+    margin-bottom: 4rem;
+}
+
+#template .card{
+    margin-bottom: 1.5em;
+    text-align: center;
+    transition: transform 0.6s;
+	box-shadow: 0 0 12px rgba(0,0,0,0.5);
+}
+
+#template .card:hover{
+	transform: scale(1.06);
+}
+
+#template .card-body{
+	padding-left: .6rem;
+	padding-right: .6rem;
+	background: -webkit-linear-gradient(to bottom, #ffffff, #f0edf8); 
+    background: linear-gradient(to bottom, #ffffff, #f0edf8); 
+	border-radius: .2rem;
+	height: 5.5rem;
+}
+
+#template .card a{
+	color: #84050c;
+}
+
+#template .card a:hover{
+	text-decoration: none;
+	color: #e4111b;
+}
+
+#template .card h6{
+	font-size: 1.6rem;
+    text-transform: uppercase;
+    display: inline;
+    font-family: 'League_Gothic';
+}
+
+@media (max-width: 576px){
+    #template{       
+        padding-left: 3.6rem;
+    }
+
+    #template .card{        
+        width: 80%;
+    }
+
+    #template .card:hover{
+        transform: none;
+    }
+}

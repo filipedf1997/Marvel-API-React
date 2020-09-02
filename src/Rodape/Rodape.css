@@ -1,0 +1,22 @@
+footer{
+    height: 4.5rem;
+    background: -webkit-linear-gradient(to bottom, #ffffff, #edecee); 
+    background: linear-gradient(to bottom, #ffffff, #edecee);
+    padding-top: 1.5rem;
+}
+
+footer p{
+    font-family: ProximaNova;
+    color: #848385;
+    padding: 0;
+    margin: 0;
+}
+
+footer a{
+    color: #cc1019;
+}
+
+footer a:hover{
+    color: #cc1019;
+}
+
