@@ -57,7 +57,7 @@
     font-size: 1.4rem;
 }
 
-@media (max-width: 576px){
+@media (max-width: 768px){
     .conteudo{
         margin-top: 4rem;
     }

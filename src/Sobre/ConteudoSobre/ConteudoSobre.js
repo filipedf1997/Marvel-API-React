@@ -8,7 +8,7 @@ function ConteudoSobre(props) {
     return (
         <div>
             <div className="row">
-                <div className="col-sm-5">
+                <div className="col-lg-5">
                     {/*Banner da página*/}
                     <div className="sticky-top paiBanner">
                         <img
@@ -21,7 +21,7 @@ function ConteudoSobre(props) {
                 </div>
                 
                 {/*Conteúdo da página*/}
-                <div className="col-sm-7">
+                <div className="col-lg-7">
                     <div className="conteudo">
                         {/*Título e descrição. Valor default passado casa não haja descrição*/}
                         <h2>{props.infos.title.replace("(Digest)", "")}</h2>

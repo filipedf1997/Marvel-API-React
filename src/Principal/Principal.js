@@ -31,7 +31,7 @@ class Principal extends Component {
                             passando o atual elemento de "comics" como uma propriedade*/}
                             {comics.map(comic => {
                                 return (
-                                    <div className="col-sm-3" key={comic.id}>
+                                    <div className="col-lg-3 col-sm-6" key={comic.id}>
                                         <Cards infos={comic} />
                                     </div>
                                 )
